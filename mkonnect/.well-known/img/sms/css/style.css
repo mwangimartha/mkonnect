@@ -1,0 +1,265 @@
+.header > p, .footer > p {
+	margin-top: 13px;
+	display: inline-block;
+}
+
+.panel-padding {
+	padding-top: 33px;
+}
+
+.panel-margin {
+	margin-bottom: 0;
+}
+
+body {
+	overflow:hidden; 		/* needed to eliminate scrollbars caused by the background image */
+	padding:0;margin:0;		/* necesarry for the raster to fill the screen */
+	height:100%;width:100%;
+}
+
+.bg_img, #bg_img_specific {
+	position:absolute;
+	/*z-index: -1;*/
+}
+
+.bg_body{
+	position:absolute;
+	z-index: 5;				/* Place the new body above the background image */
+	overflow:auto; 			/* restore scrollbars for the content */
+	height:100%;width:100%;	/* Make the new body fill the screen */
+	background: url('../images/raster.png'); /* this is just a fancy raster, you can remove it; I kinda like it though */
+}
+
+.rasterize{
+	background: url('../images/raster.png'); /* this is just a fancy raster, you can remove it; I kinda like it though */
+}
+
+.nav > li.active > a {
+	text-decoration: none;
+	background-color: #eeeeee;
+}
+
+a.list-group-item.active > .badge, .nav-pills > .active > a > .badge {
+	color: #5dcff3 !important;
+}
+
+.list-adjusted {
+	margin-top: -38px;
+	position: relative;
+	float: right;
+}
+
+.panel-heading .nav > li > a:hover {
+	border-bottom-width: 1px;
+	border-bottom-color: #eeeeee;
+	border-bottom-style: solid;
+}
+
+.margin-up {
+	margin-top: -14px;
+}
+
+.app-store {
+	margin-top: -57px;
+}
+
+.company-logo {
+	margin-top: -34px;
+}
+
+.main-logo {
+	margin-top: 4px;
+}
+
+hr {
+	margin-top: 15px;
+}
+
+.icon-shadow-white {
+	text-shadow: 0 1px 1px #fff;
+}
+
+.payment-option > li > a {
+	min-width:120px;
+	text-align: center;
+}
+
+.bg-black .nav li > ul.dropdown-menu > li.active > a {
+	color: #fff;
+}
+
+.radio-custom, .checkbox-custom {
+	margin-left: 0;
+}
+
+.align-top{
+	vertical-align: top;
+}
+
+.align-middle{
+	vertical-align: middle;
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+
+.bootstrap-switch > div > span, .bootstrap-switch > div > label {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+	height: 32px;
+	padding-top: 6px;
+}
+
+.arrow.right:after {
+	border-left-color: #81daf6;
+}
+
+.alert-attention {
+	color: #c09853;
+	background-color: #fcf8e3;
+	border-color: #faebcc;
+}
+
+.logo {
+	height: 35px;
+	margin-top: -6px;
+	margin-left: -4px;
+}
+
+.logo-front {
+	margin-top: -8px;
+}
+
+.alert-error {
+  color: #b94a48;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+
+.alert-error hr {
+  border-top-color: #e4b9c0;
+}
+
+.alert-error .alert-link {
+  color: #953b39;
+}
+
+
+.checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
+float: left;
+margin-left: -20px;
+margin-top: 2px;
+}
+
+.checkbox-t-xs{
+	margin-top: -4px;
+}
+
+.p-l-none{
+	padding-left: 0;
+}
+
+.pull-right-adjusted {
+	margin-right: 40px;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.table-light > tbody > tr > td {
+	border-top: none;
+	padding: 0px;
+}
+
+.slider.slider-horizontal .slider-handle {
+   margin-left: -3px;
+}
+
+.slider.slider-horizontal {
+    width: 100% !important;
+}
+
+.no-border-none {
+    border-radius: 0px !important;
+}
+
+.nav-pills > li > a {
+	border-radius: 0px;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    color: #7D7D7D;
+}
+
+pre {
+    padding: 0px;
+    padding-left: 5px;
+    margin: 10px 0px 10px 0px;
+    background-color: #F8F8F8;
+    border: none;
+    border-radius: 0px;
+}
+
+pre {
+	counter-reset: lines;
+}
+
+pre .line {
+	counter-increment: lines;
+}
+
+pre .line::before {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	content: counter(lines); text-align: right;
+	display: inline-block; width: 2em;
+	padding-right: 0.5em; margin-right: 0.5em;
+	color: #BBB; border-right: solid 1px;
+}
+
+.pad-sides {
+	padding: 10px 5px 0 5px;
+}
+
+/* Pagination */
+	div.pagination {
+		padding: 3px;
+		margin: 3px;
+		text-align:center;
+	}
+	
+	div.pagination a {
+		border: 1px solid #dedfde;
+		margin-right:3px;
+		padding:2px 6px;
+
+		background-position:bottom;
+		text-decoration: none;
+
+		color: #0061de;		
+	}
+	div.pagination a:hover, div.meneame a:active {
+		border: 1px solid #000;
+		background-image:none;
+		background-color:#0061de;
+		color: #fff;
+	}
+	div.pagination span.current {
+		margin-right:3px;
+		padding:2px 6px;
+		
+		font-weight: bold;
+		color: #ff0084;
+	}
+	div.pagination span.disabled {
+		margin-right:3px;
+		padding:2px 6px;
+	
+		color: #adaaad;
+	}

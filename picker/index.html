@@ -1,0 +1,30 @@
+<html>
+<head><!--add css and js file -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jquery-ui.min.js"></script>
+
+<script>
+  $(document).ready(function(){
+//Datepicker Popups calender to Choose date
+$(function(){
+    $( "#MyDatepicker" ).datepicker();
+	//Pass the user selected date format 
+    $( "#format" ).change(function() {
+      $( "#datepicker" ).datepicker( "option", "dateFormat", $(this).val() );
+    });
+  });
+  
+});
+$( "#datepicker" ).datepicker({
+	inline: true
+});
+  </script>
+</head>
+<table>
+<!--html-->
+<tr><td>
+<!--html code-->
+Date:</td><td><input type="text" id="MyDatepicker"></td></tr>
+</table>
+</html>

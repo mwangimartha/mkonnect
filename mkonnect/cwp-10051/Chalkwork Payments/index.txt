@@ -1,0 +1,75 @@
+----------------------------------------------
+CHALKWORK PAYMENTS
+by Dave Shea
+mezzoblue.com/icons/chalkwork/payments
+----------------------------------------------
+
+Thanks for your interest in the Chalkwork Family. Please consider subscribing to the Chalkwork news feed, which will announce new releases in the family as well as inform existing users of updates if any occur.
+
+	http://mezzoblue.com/icons/chalkwork/news.xml
+
+- Dave Shea
+  mezzoblue.com
+  @mezzoblue on Twitter
+
+
+
+
+LICENSE AGREEMENT
+----------------------------------------------
+By downloading this icon set, you agree to abide by the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License under which these icons are being made available for non-commercial use.
+
+	Applicable Creative Commons License: http://creativecommons.org/licenses/by-nc-sa/3.0/
+	Attribution and additional license information: http://www.mezzoblue.com/icons/license/#license-cc
+
+By purchasing a Chalkwork Commercial License, you agree to abide by the Chalkwork Royalty-Free Stock Icon License Agreement under which these icons are being made available for commercial use.
+
+	Chalkwork Commercial License: http://www.mezzoblue.com/icons/license/#license-cc
+
+This notice must be included any time these icons are redistributed.
+
+
+
+
+----------------------------------------------
+ICON FOLDER INDEX
+----------------------------------------------
+The icon files are broken down by file format. Due to some formats resulting in higher quality results, those are considered the preferred files and are located in the folder titled 'High Quality'. This package should contain the following folders in this hierarchy:
+
+High Quality
+    ICNS (Mac)
+    ICO (Windows)
+    PNG
+    TIF
+Lower Quality
+    BMP
+    GIF
+
+Within each of the second-level folders, you'll find 31 further folders, one for each icon. Depending on the file format, you may find multiple sizes within these folders along with any icon variations that may exist. Please note that ICO and ICNS files contain all applicable sizes within a single file, and that ICNS files do not support the 24x24 icon size.
+
+
+----------------------------------------------
+CHALKWORK PAYMENTS ICON INDEX
+---------------------------------------------------------------------
+
+Card - AmEx
+Card - Back
+Card - Discover
+Card - Front
+Card - Mastercard
+Card - Visa
+Card Chip (Gold)
+Card Chip (Silver)
+Cash - Single
+Cash - Stack
+Coin - Single (Copper)
+Coin - Single (Gold)
+Coin - Single (Silver)
+Coin - Stack (Copper)
+Coin - Stack (Gold)
+Coin - Stack (Silver)
+Coin - Stacks (Copper)
+Coin - Stacks (Gold)
+Coin - Stacks (Silver)
+Service - eCheck
+Service - PayPal
